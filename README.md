@@ -55,6 +55,17 @@ To generate the pickle files yourself:
 
 Once created, these files will allow the application to function as intended.
 
+## 🐳 Docker Hub Repository
+
+You can find the Docker image for this project on Docker Hub:
+[Docker Hub Repository](https://hub.docker.com/repository/docker/jay7556/movie-recommand-system/general)
+
+### How to Pull the Image
+
+You can pull the image using the following command:  
+
+docker pull jay7556/movie-recommand-system  
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to open issues or pull requests for improvements.
