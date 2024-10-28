@@ -41,6 +41,21 @@ https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 ├── requirements.txt         # Dependencies required for running the project  
 └── README.md                # Project overview and information  
 
+## 📝 Note on Pickle Files
+
+For space considerations, the two pickle files generated during the model training process have not been included in this repository. These files are essential for running the recommendation system, as they contain precomputed similarity matrices and model data.
+
+### Generating the Pickle Files
+
+To generate the pickle files yourself:
+1. Open the `Movie-Recommend.ipynb` notebook.
+2. Run the cells responsible for preprocessing and model setup to generate the required pickle files.
+3. Save the output files in the project directory as follows:
+   - `similarity.pkl`
+   - `movies.pkl`
+
+Once created, these files will allow the application to function as intended.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to open issues or pull requests for improvements.
