@@ -4,9 +4,9 @@ Welcome to the Movie Recommendation System! This project provides personalized m
 
 There are mainly there type of recommend system :  
 
-- **1**: Content Recommendation Systems
-- **2**: Collaborative Recommendation Systems
-- **3**: Hybrid Recommendation Systems
+**1**: Content Recommendation Systems
+**2**: Collaborative Recommendation Systems
+**3**: Hybrid Recommendation Systems
 
 ## 🚀 Project Overview
 
@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 
 ## 🎯 Features
 
-- **Content-Based Filtering**: Recommendations are based on the movie's metadata, including genres, keywords, cast, and crew.
+- **Content-Based Filtering**: Recommendations are based on combine text of the movie's metadata, including genres, keywords, cast, and crew.
 - **Efficient Text Processing**: Preprocessing steps include parsing and converting text features for similarity calculations.
 - **Cosine Similarity**: Measures the similarity between movies based on their feature vectors, ensuring relevant suggestions.
 - **User-Friendly Interface**: A responsive web interface built with Streamlit makes interaction easy and intuitive.
@@ -25,7 +25,8 @@ https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 ## 🛠️ Technologies Used
 
 - **Python**: For data processing, feature engineering, and running the recommendation system.
-- **Pandas**: Efficient data manipulation and handling.
+- **nltk**: For clean the text like stop words, steaming, lemitization
+- **Pandas**: Efficient data manipulation and handling and cleaning.
 - **Scikit-Learn**: Provides tools for vectorization and cosine similarity calculations.
 - **Streamlit**: Builds a simple and interactive web interface.
 - **Docker**: Packages the application for easy deployment.
