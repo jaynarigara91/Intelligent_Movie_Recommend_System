@@ -10,17 +10,19 @@ https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 
 ## 🎯 Features
 
-- **Personalized Recommendations**: Get movie recommendations tailored to your taste.
-- **User-Friendly Interface**: Built with Streamlit, ensuring an intuitive experience.
-- **Streamlit-Based Interface**: Provides an interactive and responsive UI.
-- **Docker Integration**: Simplifies deployment, making it quick and efficient to run the app on any environment.
+- **Content-Based Filtering**: Recommendations are based on the movie's metadata, including genres, keywords, cast, and crew.
+- **Efficient Text Processing**: Preprocessing steps include parsing and converting text features for similarity calculations.
+- **Cosine Similarity**: Measures the similarity between movies based on their feature vectors, ensuring relevant suggestions.
+- **User-Friendly Interface**: A responsive web interface built with Streamlit makes interaction easy and intuitive.
+- **Docker Integration**: Simplifies deployment with Docker, allowing you to run the system in a containerized environment.
 
 ## 🛠️ Technologies Used
 
-- **Python**: Core programming language.
-- **Deep Learning**: Powering the recommendation engine for movie suggestions.
-- **Streamlit**: Web framework for designing a visually appealing UI.
-- **Docker**: Containerizes the application, ensuring ease of deployment and scalability.
+- **Python**: For data processing, feature engineering, and running the recommendation system.
+- **Pandas**: Efficient data manipulation and handling.
+- **Scikit-Learn**: Provides tools for vectorization and cosine similarity calculations.
+- **Streamlit**: Builds a simple and interactive web interface.
+- **Docker**: Packages the application for easy deployment.
 
 ## 📂 Project Structure
 
@@ -31,6 +33,8 @@ https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 ├──.dockerignore             # file that don't want to take in docker image  
 ├── requirements.txt         # Dependencies required for running the project  
 └── README.md                # Project overview and information  
+
+├── Movie.csv # CSV data for the app ├── app.py # Main application script for running the Streamlit app ├── Movie-Recommend.ipynb # Jupyter notebook for data preprocessing and feature extraction ├── Dockerfile # Docker setup for easy deployment ├── .dockerignore # Files to exclude from the Docker image ├── requirements.txt # Dependencies required for running the project └── README.md # Project overview and information
 
 ## 🤝 Contributing
 
