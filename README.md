@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 
 ## 📂 Project Structure
 
-├── Movie.csv                # Csv data for app 
+├── Movie.csv                # Csv data for app  
 ├── app.py                   # Main application script for running the Streamlit app  
 ├── Movie-Recommand.ipynb/   # Contains the recommendation model files after run will get two pickel file  
 ├── Dockerfile               # Docker setup for easy deployment  
