@@ -1,10 +1,16 @@
 # Movie Recommendation System
 
-Welcome to the Movie Recommendation System! This project leverages deep learning and a clean, interactive interface to provide personalized movie recommendations. Built with Streamlit for the UI and Docker for easy deployment, this system is designed to deliver an engaging user experience and scalable performance.
+Welcome to the Movie Recommendation System! This project provides personalized movie recommendations using a content-based approach, relying on cosine similarity to suggest movies based on features such as genres, keywords, cast, and crew which is combine in one text and it given to model.  
+
+There are mainly there type of recommend system :  
+
+- **1**: Content Recommendation Systems
+- **2**: Collaborative Recommendation Systems
+- **3**: Hybrid Recommendation Systems
 
 ## 🚀 Project Overview
 
-The Movie Recommendation System is a web-based application designed to suggest movies based on users’ interests and preferences. It uses machine learning techniques to analyze movie data and recommend similar films.
+This Movie Recommendation System leverages a content-based filtering approach to provide personalized movie suggestions. The system processes a dataset of 5,000 movies and uses CountVectorizer to extract features from metadata fields such as genres, keywords, cast, and crew. It then calculates cosine similarity between movies to find the most relevant recommendations. Given a movie name, the system outputs the top five similar movies based on the highest similarity scores, offering users tailored movie suggestions.
 
 https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 
@@ -33,8 +39,6 @@ https://github.com/user-attachments/assets/aa855b14-2114-4678-ac39-b7fff868f0c6
 ├──.dockerignore             # file that don't want to take in docker image  
 ├── requirements.txt         # Dependencies required for running the project  
 └── README.md                # Project overview and information  
-
-├── Movie.csv # CSV data for the app ├── app.py # Main application script for running the Streamlit app ├── Movie-Recommend.ipynb # Jupyter notebook for data preprocessing and feature extraction ├── Dockerfile # Docker setup for easy deployment ├── .dockerignore # Files to exclude from the Docker image ├── requirements.txt # Dependencies required for running the project └── README.md # Project overview and information
 
 ## 🤝 Contributing
 
