@@ -4,9 +4,9 @@ Welcome to the Movie Recommendation System! This project provides personalized m
 
 There are mainly there type of recommend system :  
 
-**1**: Content Recommendation Systems
-**2**: Collaborative Recommendation Systems
-**3**: Hybrid Recommendation Systems
+**1** : Content Recommendation Systems  
+**2** : Collaborative Recommendation Systems  
+**3** : Hybrid Recommendation Systems  
 
 ## 🚀 Project Overview
 
